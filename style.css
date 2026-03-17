@@ -104,6 +104,7 @@ main .section1 .container .cards .card_text p {
   padding-bottom: 50px;
 }
 main .section1 .container .cards .card_text button {
+  flex-wrap: wrap;
   width: 38%;
   height: 40px;
   background: #3A68B8;
@@ -126,4 +127,63 @@ main .section1 .container .section_bottom {
   display: flex;
   align-items: center;
   gap: 50px;
+  flex-wrap: wrap;
+}
+main .section2 {
+  margin-top: 100px;
+}
+main .section2 .container .cards {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+main .section2 .container .cards .card_rasm img {
+  max-width: 100%;
+}
+main .section2 .container .cards .card_text h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #fff;
+  padding-bottom: 30px;
+}
+main .section2 .container .cards .card_text p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #979696;
+  padding-bottom: 50px;
+}
+main .section2 .container .cards .card_text button {
+  width: 30%;
+  height: 50px;
+  background: #3A68B8;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: all 1s ease-in-out;
+}
+main .section2 .container .cards .card_text button:hover {
+  background: none;
+  color: #3A68B8;
+  transform: scale(1.2);
+  border: 3px solid #3A68B8;
+}
+
+@media (max-width: 950px) {
+  .section1 .container .cards {
+    flex-wrap: wrap;
+  }
+  .section2 .container .cards {
+    flex-wrap: wrap;
+  }
+  .section2 .container .cards .card_text {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
