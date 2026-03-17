@@ -169,6 +169,7 @@ main {
 
                 .card_text {
                     // max-width: 45%;
+                    text-align: center;
 
                     h2 {
                         font-weight: 700;
@@ -361,7 +362,7 @@ footer {
                     color: #fff;
                 }
 
-                .insta{
+                .insta {
                     display: flex;
                     align-items: center;
                     gap: 25px;
@@ -378,6 +379,14 @@ footer {
         .container {
             .cards {
                 flex-wrap: wrap;
+
+                .card_text {
+                    text-align: center;
+                }
+
+                .section_bottom {
+                    text-align: center;
+                }
             }
         }
     }
@@ -415,8 +424,229 @@ footer {
             }
         }
     }
+}
 
-    footer{
-        
+@media(max-width:860px) {
+
+    header {
+        ul {
+            li {
+                display: none;
+            }
+        }
+    }
+
+    .section1 {
+        .container {
+            .cards {
+                flex-wrap: wrap;
+
+                .card_text {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .section2 {
+        .container {
+            .cards {
+                flex-wrap: wrap;
+
+                .card_text {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .section3 {
+        .section_cards {
+            flex-wrap: wrap;
+
+            .card {
+                width: 48%;
+            }
+        }
+    }
+
+    .section4 {
+        .container {
+            .section_cards {
+                flex-wrap: wrap;
+
+                .card_text {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    footer {
+        .container {
+            .footer_hammasi {
+                ul {
+                    li {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:750px) {
+
+    header {
+        .container {
+            .navbar {
+                display: flex;
+                align-items: center;
+                gap: 50px;
+                ul {
+                    li {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .section1 {
+        .container {
+            .cards {
+                flex-wrap: wrap;
+
+                .card_text {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .section2 {
+        .container {
+            .cards {
+                flex-wrap: wrap;
+
+                .card_text {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .section3 {
+        .section_cards {
+            flex-wrap: wrap;
+
+            .card {
+                width: 100%;
+            }
+        }
+    }
+
+    .section4 {
+        .container {
+            .section_cards {
+                flex-wrap: wrap;
+
+                .card_text {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    footer {
+        .container {
+            .footer_hammasi {
+                ul {
+                    li {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:660px) {
+
+    header {
+        .container {
+            .navbar {
+                display: flex;
+                align-items: center;
+                ul {
+                    li {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .section1 {
+        .container {
+            .cards {
+                flex-wrap: wrap;
+
+                .card_text {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .section2 {
+        .container {
+            .cards {
+                flex-wrap: wrap;
+
+                .card_text {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .section3 {
+        .section_cards {
+            flex-wrap: wrap;
+
+            .card {
+                width: 100%;
+            }
+        }
+    }
+
+    .section4 {
+        .container {
+            .section_cards {
+                flex-wrap: wrap;
+
+                .card_text {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    footer {
+        .container {
+            .footer_hammasi {
+                flex-direction: column;
+                text-align: center;
+                ul {
+                    li {
+                        display: none;
+                    }
+                }
+            }
+        }
     }
 }
