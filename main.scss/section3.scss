@@ -1,0 +1,33 @@
+.section3 {
+        margin-top: 100px;
+
+        .section_cards {
+            display: flex;
+            // align-items: center;
+            gap: 30px;
+            // flex-wrap: wrap;
+
+            .card {
+                // max-width: 18%;
+                background: rgb(53, 53, 53);
+                text-align: center;
+                padding: 10px 0px;
+
+                h3 {
+                    font-weight: 700;
+                    font-size: 25px;
+                    line-height: 125%;
+                    letter-spacing: 0%;
+                    color: #fff;
+                }
+
+                p {
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 160%;
+                    letter-spacing: 0%;
+                    color: #fff;
+                }
+            }
+        }
+    }

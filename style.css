@@ -175,6 +175,32 @@ main .section2 .container .cards .card_text button:hover {
   transform: scale(1.2);
   border: 3px solid #3A68B8;
 }
+main .section3 {
+  margin-top: 100px;
+}
+main .section3 .section_cards {
+  display: flex;
+  gap: 30px;
+}
+main .section3 .section_cards .card {
+  background: rgb(53, 53, 53);
+  text-align: center;
+  padding: 10px 0px;
+}
+main .section3 .section_cards .card h3 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+main .section3 .section_cards .card p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #fff;
+}
 
 @media (max-width: 950px) {
   .section1 .container .cards {
@@ -185,5 +211,11 @@ main .section2 .container .cards .card_text button:hover {
   }
   .section2 .container .cards .card_text {
     width: 100%;
+  }
+  .section3 .section_cards {
+    flex-wrap: wrap;
+  }
+  .section3 .section_cards .card {
+    width: 31%;
   }
 }/*# sourceMappingURL=style.css.map */

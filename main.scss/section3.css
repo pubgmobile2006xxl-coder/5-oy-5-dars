@@ -1,0 +1,26 @@
+.section3 {
+  margin-top: 100px;
+}
+.section3 .section_cards {
+  display: flex;
+  gap: 30px;
+}
+.section3 .section_cards .card {
+  background: rgb(53, 53, 53);
+  text-align: center;
+  padding: 10px 0px;
+}
+.section3 .section_cards .card h3 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+.section3 .section_cards .card p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #fff;
+}/*# sourceMappingURL=section3.css.map */
