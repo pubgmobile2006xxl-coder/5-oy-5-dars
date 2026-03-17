@@ -1,0 +1,74 @@
+footer {
+  margin-top: 100px;
+}
+footer .container .footer_hammasi {
+  display: flex;
+  gap: 30px;
+}
+footer .container .footer_hammasi .footer_left .lor {
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+  margin: 20px 0;
+}
+footer .container .footer_hammasi .footer_left .icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  color: #fff;
+}
+footer .container .footer_hammasi .footer_left .icon p {
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+footer .container .footer_hammasi ul li h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+  margin-bottom: 30px;
+}
+footer .container .footer_hammasi ul li {
+  font-weight: 450;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+footer .container .footer_hammasi .footer_right h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+  margin-bottom: 30px;
+}
+footer .container .footer_hammasi .footer_right p {
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+  margin-bottom: 30px;
+}
+footer .container .footer_hammasi .footer_right a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+footer .container .footer_hammasi .footer_right .insta {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  color: #fff;
+  margin-top: 20px;
+}/*# sourceMappingURL=footer.css.map */

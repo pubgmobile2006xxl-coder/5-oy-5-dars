@@ -1,0 +1,92 @@
+footer {
+    margin-top: 100px;
+
+    .container {
+        .footer_hammasi {
+            display: flex;
+            gap: 30px;
+
+            .footer_left {
+                .lor {
+                    font-weight: 450;
+                    font-size: 14px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #fff;
+                    margin: 20px 0;
+                }
+
+                .icon {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    margin-top: 20px;
+                    color: #fff;
+
+                    p {
+                        font-weight: 450;
+                        font-size: 14px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #fff;
+                    }
+                }
+            }
+
+            ul {
+                li {
+                    h6 {
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #fff;
+                        margin-bottom: 30px;
+                    }
+
+                    font-weight: 450;
+                    font-size: 17px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #fff;
+                }
+            }
+
+            .footer_right {
+                h6 {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #fff;
+                    margin-bottom: 30px;
+                }
+
+                p {
+                    font-weight: 450;
+                    font-size: 14px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #fff;
+                    margin-bottom: 30px;
+                }
+
+                a {
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #fff;
+                }
+
+                .insta{
+                    display: flex;
+                    align-items: center;
+                    gap: 25px;
+                    color: #fff;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
