@@ -1,0 +1,23 @@
+.section4 {
+  margin-top: 100px;
+}
+.section4 .container .section_cards {
+  display: flex;
+  align-items: center;
+}
+.section4 .container .section_cards .card_text h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #fff;
+  padding-bottom: 40px;
+}
+.section4 .container .section_cards .card_text p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #979696;
+  padding-bottom: 20px;
+}/*# sourceMappingURL=section4.css.map */

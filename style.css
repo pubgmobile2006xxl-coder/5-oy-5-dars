@@ -201,6 +201,29 @@ main .section3 .section_cards .card p {
   letter-spacing: 0%;
   color: #fff;
 }
+main .section4 {
+  margin-top: 100px;
+}
+main .section4 .container .section_cards {
+  display: flex;
+  align-items: center;
+}
+main .section4 .container .section_cards .card_text h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #fff;
+  padding-bottom: 40px;
+}
+main .section4 .container .section_cards .card_text p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #979696;
+  padding-bottom: 20px;
+}
 
 @media (max-width: 950px) {
   .section1 .container .cards {
@@ -217,5 +240,11 @@ main .section3 .section_cards .card p {
   }
   .section3 .section_cards .card {
     width: 31%;
+  }
+  .section4 .container .section_cards {
+    flex-wrap: wrap;
+  }
+  .section4 .container .section_cards .card_text {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
